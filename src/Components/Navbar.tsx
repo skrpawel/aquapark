@@ -2,7 +2,13 @@ import { useEffect, useState } from "react";
 import logo from "../assets/swimming-pool.svg";
 
 const Navbar = () => {
-  const Menu = ["Strona główna", "Godziny otwarcia", "Cennik", "Kontakt"];
+  const Menu = [
+    "Strona główna",
+    "Galeria",
+    "Godziny otwarcia",
+    "Cennik",
+    "Kontakt",
+  ];
 
   const [navbar, setNavbar] = useState<boolean>();
 
@@ -22,9 +28,8 @@ const Navbar = () => {
   return (
     <nav
       className={
-        navbar
-          ? "bg-[#023047] transition-all duration-500 border-gray-200 px-2 sm:px-4 py-2.5 sticky top-0 z-50"
-          : "navbar border-gray-200 px-2 sm:px-4 py-2.5 sticky top-0 z-50"
+        "border-gray-200 px-2 sm:px-4 py-2.5 top-0 z-50 fixed w-full " +
+        (navbar && "bg-[#219ebc] transition-all duration-500")
       }
     >
       <div className="container flex flex-wrap items-center justify-between mx-auto">
