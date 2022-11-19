@@ -1,8 +1,4 @@
-## Aquapark - School Project
-
-#### Example:
-
-TweetWorld
+## Aquapark Wavy - School Project
 
 An application used to present example aquapark website, built with React, Vite, Typescript, and Tailwindcss.
 
@@ -12,9 +8,11 @@ This project is currently in development.
 
 ## Project Screen Shot(s)
 
-#### Example:
+#### Main page:
 
-![Alt text](/src/assets/ss1.png "Optional Title")
+![Main page screenshot](/src/assets/ss1.png "Main")
+
+![Footer screenshot](/src/assets/ss2.png "Footer")
 
 ## Installation and Setup Instructions
 
