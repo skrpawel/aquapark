@@ -13,7 +13,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState<boolean>();
 
   const changeBackground = () => {
-    if (window.scrollY >= 66) {
+    if (window.scrollY >= 1) {
       setNavbar(true);
     } else {
       setNavbar(false);

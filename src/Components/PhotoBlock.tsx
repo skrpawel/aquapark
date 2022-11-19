@@ -1,10 +1,10 @@
 const PhotoBlock = (props: any) => {
   return (
-    <div className="h-full border-2">
+    <div className="h-full ">
       <img
         src={props.imgURL}
-        alt="Photo by Claudio Schwarz on Unsplash"
-        className="inset-0 h-full object-cover object-center rounded opacity-75 hover:opacity-100 "
+        alt="Photo of Top G"
+        className="h-full w-96 object-cover rounded opacity-75 hover:opacity-100 object-center"
       />
     </div>
   );

@@ -34,29 +34,31 @@ const SwimmingAreaOpenHours: {
 
 const OpenHours = () => {
   return (
-    <BaseComponent style="flex flex-col justify-center items-center max-h-screen">
+    <BaseComponent style="h-full flex flex-col justify-center items-center max-h-screen">
       <div className="overflow-x-auto mx-6 lg:-mx-8 md:w-3/4">
         <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8">
           <div className="overflow-hidden">
-            <h2 className="text-3xl mb-16 underline">Godziny otwarcia</h2>
-            <table className="min-w-full text-center">
+            <h2 className="text-4xl md:text-5xl font-bold  ">
+              Godziny otwarcia
+            </h2>
+            <table className="min-w-full text-center my-10">
               <thead className="border-b bg-[#fb8500]">
                 <tr>
                   <th
                     scope="col"
-                    className="text-sm font-medium text-white px-6 py-4"
+                    className="text-sm font-medium text-white  py-4"
                   >
                     Typ strefy
                   </th>
                   <th
                     scope="col"
-                    className="text-sm font-medium text-white px-6 py-4"
+                    className="text-sm font-medium text-white  py-4"
                   >
                     Dni powszednie
                   </th>
                   <th
                     scope="col"
-                    className="text-sm font-medium text-white px-6 py-4"
+                    className="text-sm font-medium text-white  py-4"
                   >
                     Weekendy i święta
                   </th>
@@ -65,13 +67,13 @@ const OpenHours = () => {
               <tbody>
                 {SwimmingAreaOpenHours.map((area) => (
                   <tr className="bg-white border-b">
-                    <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
+                    <td className="text-sm text-gray-900 font-bold  py-4 whitespace-nowrap">
                       {area.type}
                     </td>
-                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    <td className="text-sm text-gray-900 font-light  py-4 whitespace-nowrap">
                       {area.normalHours}
                     </td>
-                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    <td className="text-sm text-gray-900 font-light  py-4 whitespace-nowrap">
                       {area.weekendHours}
                     </td>
                   </tr>
