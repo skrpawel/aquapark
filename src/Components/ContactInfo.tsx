@@ -23,13 +23,16 @@ const ContactInfo = () => {
         Obserwuj nasze media społecznościowe
       </span>
       <div className="flex justify-start w-full gap-2">
-        <Socials>
+        <Socials href="https://www.instagram.com/" target="_blank">
           <AiOutlineInstagram size={30} />
         </Socials>
-        <Socials>
+        <Socials href="https://www.facebook.com/" target="_blank">
           <AiFillFacebook size={30} />
         </Socials>
-        <Socials>
+        <Socials
+          href="https://www.youtube.com/watch?v=CWisOGq0SWs"
+          target="_blank"
+        >
           <AiFillYoutube size={30} />
         </Socials>
       </div>
