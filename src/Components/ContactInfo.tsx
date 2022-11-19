@@ -3,6 +3,7 @@ import {
   AiFillFacebook,
   AiFillYoutube,
 } from "react-icons/ai";
+import Socials from "./Socials";
 
 const ContactInfo = () => {
   return (
@@ -21,10 +22,16 @@ const ContactInfo = () => {
       <span className="text-zinc-500	">
         Obserwuj nasze media społecznościowe
       </span>
-      <div className="flex justify-start w-full">
-        <AiOutlineInstagram size={30} />
-        <AiFillFacebook size={30} />
-        <AiFillYoutube size={30} />
+      <div className="flex justify-start w-full gap-2">
+        <Socials>
+          <AiOutlineInstagram size={30} />
+        </Socials>
+        <Socials>
+          <AiFillFacebook size={30} />
+        </Socials>
+        <Socials>
+          <AiFillYoutube size={30} />
+        </Socials>
       </div>
     </div>
   );

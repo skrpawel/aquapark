@@ -2,6 +2,7 @@ import { BiPhoneCall } from "react-icons/bi";
 import ContactInfo from "./ContactInfo";
 import Location from "./Location";
 import Newsletter from "./Newsletter";
+import Socials from "./Socials";
 
 const Contact = () => {
   return (
