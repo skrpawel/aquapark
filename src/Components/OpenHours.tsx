@@ -30,6 +30,11 @@ const SwimmingAreaOpenHours: {
     normalHours: "19:00 - 22:00	",
     weekendHours: "18:00 - 22:00  ",
   },
+  {
+    type: "WYPOŻYCZALNIA SPRZĘTU",
+    normalHours: "14:00 - 21:30	",
+    weekendHours: "11:00 - 22:00  ",
+  },
 ];
 
 const OpenHours = () => {

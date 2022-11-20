@@ -19,7 +19,7 @@ const Prices = () => {
   return (
     <BaseComponent
       className=""
-      style="flex flex-col lg:h-full lg:max-h-screen px-12 justify-center items-center gap-6"
+      style="flex flex-col lg:h-full lg:max-h-screen px-12 justify-center items-center"
       color=""
     >
       <h2 className="text-4xl md:text-5xl font-bold">Cennik</h2>

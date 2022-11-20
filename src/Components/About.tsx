@@ -15,7 +15,11 @@ const About = () => {
           relaks i wypoczynek po ciężkim dniu.
         </p>
       </div>
-      <img src={img} className="w-1/2 sm:w-3/4 m-4 md:w-1/2" />
+      <img
+        src={img}
+        alt="Swimming pool cartoon image"
+        className="w-1/2 sm:w-3/4 m-4 md:w-1/2"
+      />
     </div>
   );
 };
