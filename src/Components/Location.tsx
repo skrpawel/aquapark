@@ -9,6 +9,7 @@ const Location = () => {
       <img
         src="https://parkofpoland.com/build/images/decors/palm-small.svg"
         className="w-1/3"
+        alt="Map"
       />
     </div>
   );
