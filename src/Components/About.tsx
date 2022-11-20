@@ -2,7 +2,10 @@ import img from "../assets/pool.png";
 
 const About = () => {
   return (
-    <div className="h-full max-h-screen flex flex-col justify-center items-center lg:flex-row pt-20 px-8">
+    <div
+      id="about"
+      className="h-full max-h-screen flex flex-col justify-center items-center lg:flex-row pt-20 px-8"
+    >
       <div className="flex flex-col xl:items-center p-4 my-4 text-left ">
         <h2 className="text-4xl md:text-5xl font-bold xl:w-1/2 my-4">O nas</h2>
         <p className="xl:w-1/2 text-sm sm:text-base">

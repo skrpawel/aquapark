@@ -13,7 +13,10 @@ const urls = [
 
 const Gallery = () => {
   return (
-    <div className=" h-full max-h-screen mx-auto justify-center flex flex-nowrap">
+    <div
+      id="gallery"
+      className=" h-full max-h-screen mx-auto justify-center flex flex-nowrap"
+    >
       {urls.map((url) => (
         <PhotoBlock imgURL={url} />
       ))}

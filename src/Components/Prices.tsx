@@ -18,6 +18,7 @@ const size = 90;
 const Prices = () => {
   return (
     <BaseComponent
+      id="prices"
       className=""
       style="flex flex-col lg:h-full lg:max-h-screen px-12 justify-center items-center"
       color=""

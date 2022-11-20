@@ -4,11 +4,26 @@ import menu from "../assets/menu.svg";
 
 const Navbar = () => {
   const Menu = [
-    "Strona główna",
-    "Galeria",
-    "Godziny otwarcia",
-    "Cennik",
-    "Kontakt",
+    {
+      id: "about",
+      name: "O nas",
+    },
+    {
+      id: "gallery",
+      name: "Galeria",
+    },
+    {
+      id: "open-hours",
+      name: "Godziny otwarcia",
+    },
+    {
+      id: "prices",
+      name: "Cennik",
+    },
+    {
+      id: "contact",
+      name: "Kontakt",
+    },
   ];
 
   const [navbar, setNavbar] = useState<boolean>();
@@ -55,11 +70,11 @@ const Navbar = () => {
             {Menu.map((el) => (
               <li>
                 <a
-                  href="#"
+                  href={"#" + el.id}
                   className="block py-2 pl-3 pr-4  md:p-0 hover:text-[#ffb703]"
                   aria-current="page"
                 >
-                  {el}
+                  {el.name}
                 </a>
               </li>
             ))}

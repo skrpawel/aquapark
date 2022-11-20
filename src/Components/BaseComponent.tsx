@@ -1,6 +1,6 @@
 const BaseComponent = (props: any) => {
   return (
-    <div className={props.style + " " + props.color}>
+    <div id={props.id} className={props.style + " " + props.color}>
       {props.children}
       <hr />
     </div>

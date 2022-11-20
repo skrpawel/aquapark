@@ -39,7 +39,10 @@ const SwimmingAreaOpenHours: {
 
 const OpenHours = () => {
   return (
-    <BaseComponent style="h-full flex flex-col justify-center items-center max-h-screen">
+    <BaseComponent
+      id="open-hours"
+      style="h-full flex flex-col justify-center items-center max-h-screen"
+    >
       <div className="overflow-x-auto mx-6 lg:-mx-8 md:w-3/4">
         <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8">
           <div className="overflow-hidden">

@@ -9,7 +9,7 @@ import Prices from "./Components/Prices";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Navbar />
       <About />
       <Gallery />
